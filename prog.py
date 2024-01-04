@@ -15,17 +15,3 @@ def give_qrcode(world : str, fileName : str):
 
     return image
 
-
-try:
-
-    name = input("\nEntrez le text dont vous souhaitez générer le qrcode : ")
-
-    fichier = input("\nEntrer le nom du fichier qui sera sauvegardé : ")
-
-    give_qrcode(name, fichier)
-
-    print("\nGénération éffectué avec succèss ! ")
-
-except:
-    
-    print("\n Une erreur s'est produite ")
